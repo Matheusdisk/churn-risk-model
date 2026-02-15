@@ -1,42 +1,51 @@
-# Churn Risk Model
+# Customer Churn Risk Model
 
-A data-driven approach to identifying high-risk customers in a subscription-based telecom environment.
+This project demonstrates how structured customer data can be used to estimate churn probability using machine learning techniques.
 
-## Objective
+The objective is not only to predict churn, but to understand which business and behavioral factors contribute most to customer attrition.
 
-Develop an interpretable predictive model to identify customers with high probability of churn and support retention strategies.
+---
 
-## Dataset
+## 🎯 Objective
 
-- 7,043 customers
-- 21 features
-- 26% churn rate
-- Telecom subscription dataset
+Build a classification model capable of identifying high-risk customers using:
 
-## Methodology
+- Contract type
+- Internet service type
+- Tenure
+- Monthly charges
+- Service subscriptions
+- Billing characteristics
 
-1. Data cleaning and preprocessing
-2. Exploratory data analysis
-3. Behavioral risk segmentation
-4. Logistic regression with class imbalance handling
-5. Model interpretability through coefficient analysis
+---
 
-## Results
+## 🧠 Model
 
-- Accuracy: 73%
-- Recall (Churn): 79%
-- Identified key risk drivers:
-  - Month-to-month contracts
-  - Fiber optic service
-  - Electronic check payment
-  - Low tenure
+- Logistic Regression (Scikit-learn)
+- Structured feature encoding
+- Risk scoring logic
+- High-risk classification threshold
 
-## Business Implications
+---
 
-The model enables prioritization of high-risk customers and supports data-driven retention strategies.
+## 📊 Key Findings
 
-## Technologies
+- Month-to-month contracts show significantly higher churn.
+- Fiber optic customers present elevated churn probability.
+- Long-term contracts strongly reduce churn risk.
+- Tenure is inversely correlated with churn.
 
-- Python
+---
+
+## 📦 Tech Stack
+
+- Python 3
 - Pandas
+- NumPy
 - Scikit-learn
+- Jupyter Notebook
+
+---
+
+## 📁 Project Structure
+

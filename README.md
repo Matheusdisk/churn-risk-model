@@ -49,3 +49,24 @@ Build a classification model capable of identifying high-risk customers using:
 
 ## 📁 Project Structure
 
+data/
+notebook/
+README.md
+
+
+---
+
+## 🚀 Future Improvements
+
+- Feature scaling refinement
+- Cross-validation
+- Hyperparameter tuning
+- Model comparison (Random Forest, XGBoost)
+- Risk probability calibration
+
+---
+
+## 📌 Author
+
+Matheus Henrique  
+Cybersecurity Professional with interest in Applied Artificial Intelligence
